@@ -1,0 +1,14 @@
+.Weather {
+  font-family: sans-serif;
+  margin: 30px auto;
+  max-width: 630px;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  padding: 24px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
