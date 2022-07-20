@@ -7,7 +7,7 @@ function App() {
       <Weather />
       <footer>
         <p>
-          <a href="https://github.com/EstrelaE/weather-app-react">
+          <a href="https://github.com/EstrelaE/react-weather-app">
             Open-source
           </a>{" "}
           project by{" "}
