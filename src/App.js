@@ -1,10 +1,10 @@
-import Weather from "./Weather";
+import WeatherSearch from "./WeatherSearch";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <Weather defaultPlace="Lisbon" />
+      <WeatherSearch defaultPlace="Lisbon" />
       <footer>
         <p>
           <a href="https://github.com/EstrelaE/react-weather-app">
