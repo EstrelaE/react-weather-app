@@ -25,5 +25,6 @@ export default function WeatherIcon(props) {
     icons[props.icon]
   }.svg`;
   console.log(icons[props.icon]);
+
   return <img src={icon} alt={props.description} />;
 }

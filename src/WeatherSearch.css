@@ -2,9 +2,11 @@
   font-family: sans-serif;
   margin: 30px auto;
   max-width: 630px;
-  border: 1px solid lightgray;
+  border: 2px solid rgba(11, 93, 216, 0.349);
   border-radius: 7px;
   padding: 24px;
+  background-color: #d7eefa63;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 ul {
