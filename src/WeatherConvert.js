@@ -19,7 +19,7 @@ export default function WeatherConvert(props) {
     return (
       <span className="WeatherConvert">
         <strong>{temp}</strong> ºC |{" "}
-        <a href="#" onClick={convertTemp}>
+        <a href="/" onClick={convertTemp}>
           ºF
         </a>
       </span>
@@ -28,7 +28,7 @@ export default function WeatherConvert(props) {
     return (
       <span className="WeatherConvert">
         <strong>{temp}</strong>{" "}
-        <a href="#" onClick={convertTemp}>
+        <a href="/" onClick={convertTemp}>
           ºC{" "}
         </a>{" "}
         | ºF
