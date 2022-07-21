@@ -8,7 +8,7 @@ export default function WeatherConvert(props) {
     let fahrenheit = props.temp * 1.8 + 32;
     if (unit === "celsius") {
       setUnit("fahrenheit");
-      setTemp(fahrenheit);
+      setTemp(Math.round(fahrenheit));
     } else {
       setUnit("celsius");
       setTemp(props.temp);

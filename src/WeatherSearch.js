@@ -57,14 +57,14 @@ export default function Weather(props) {
                 <i class="fas fa-search-location"></i>
               </button>
             </div>
-            <div className="col-1">
+            {/* <div className="col-1">
               <button className="btn btn-primary">
                 <i class="fas fa-crosshairs"></i>
               </button>
             </div>
             <div className="col-1">
               <button className="btn btn-primary">Random</button>
-            </div>
+            </div> */}
           </div>
         </form>
 
