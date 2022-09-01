@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# React Weather App
+A Weather App that gets information from openweathermap API. Still in process...
 
+**Link to project:** http://react-weather-estrela.netlify.app
+
+![alt tag](https://i.postimg.cc/J0nsGRDr/Screen-Shot-2022-07-22-at-13-58-18.png)
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript, React, Bootstrap
+
+Building this web application to practice my React skills. I had previously built a weather app with Vanilla Javascript and wanted to convert it to React, I thought that this process would be a good way to see the differences between the two, and the benefits of using React - what this library/framework had to offer, improve and simplify. I'm not finished with the app, but so far the process has been smooth and fun, using components and separating functionalities really improves code readability and workflow. 
+
+## Optimizations
+*Work in process*
+
+I'm still building this app. These are some of the features I'm still working on:
+- A current location button, using GPS location
+- A randomizer button, to give the user a random city (just for fun, and a good way to train JavaScript methods)
+- Some design details to improve overall look of the app
+
+## Lessons Learned:
+
+Reading documentation is one of the most important and useful ways to learn a new technology and use it properly.
+React helps to reduce the chance of bugs, way easier to have a smoother process of building functionalities. Especially when you separate all diferent actions in components.
+You shouldn't try to invent the wheel, because it's already done and that would be a waste of time and resources. So, it's good to search good materials/components and use them correctly. But should always pay attention to documentation, if they are maintained or not, and be sure to not use anything you can't understand.
+
+## Previous Weather App:
+This is the previous weather app built on Vanilla JavaScript
+
+https://vanilla-meteo.netlify.app/
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+### Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
