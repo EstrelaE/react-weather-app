@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import WeatherData from "./WeatherData";
 
 import axios from "axios";
-import "./WeatherSearch.css";
+import "./Weather.css";
 
 export default function Weather(props) {
   const [place, setPlace] = useState(props.defaultPlace);
@@ -35,6 +35,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       icon: response.data.weather[0].icon,
+      coord: response.data.coord,
     });
   }
 
@@ -54,7 +55,7 @@ export default function Weather(props) {
             </div>
             <div className="col-1">
               <button type="submit" className="btn btn-primary">
-                <i class="fas fa-search-location"></i>
+                <i className="fas fa-search-location"></i>
               </button>
             </div>
             {/* <div className="col-1">

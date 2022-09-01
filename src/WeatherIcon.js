@@ -24,7 +24,6 @@ export default function WeatherIcon(props) {
   let icon = `https://bmcdn.nl/assets/weather-icons/v3.0/line/svg/${
     icons[props.icon]
   }.svg`;
-  console.log(icons[props.icon]);
 
   return <img src={icon} alt={props.description} />;
 }
