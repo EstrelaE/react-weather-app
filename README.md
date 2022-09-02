@@ -15,9 +15,10 @@ Building this web application to practice my React skills. I had previously buil
 *Work in process*
 
 I'm still building this app. These are some of the features I'm still working on:
-- A current location button, using GPS location
-- A randomizer button, to give the user a random city (just for fun, and a good way to train JavaScript methods)
+- A current location button, using GPS location 
+- A randomizer button, to give the user a random city (just for fun, and a good way to train JavaScript methods) 
 - Some design details to improve overall look of the app
+- Conversion button working on the forecast too
 
 ## Lessons Learned:
 
