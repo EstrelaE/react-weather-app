@@ -1,7 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
-import WeatherConvert from "./WeatherConvert";
 import WeatherForecast from "./WeatherForecast";
 
 export default function WeatherData(props) {
@@ -25,7 +24,7 @@ export default function WeatherData(props) {
               icon={props.data.icon}
               description={props.data.description}
             />
-            <WeatherConvert temp={props.data.temp} />
+            <span>{props.data.temp}ºC</span>
           </div>
         </div>
         <div className="col-6">
